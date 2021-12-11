@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid blueviolet;
+}
+
+.card-header {
+  background-color: fuchsia;
+}
+
+.card-body {
+  background-image: url("Blackboard.jpg");
+  display: inline-flex;
+  color: whitesmoke;
+  }
+
+.grid-container {
+  background-image: url("Blackboard.jpg");
+  border: 1px solid blueviolet;
+  display: grid;
+  grid-template-columns: repeat(3, 102px);
+  padding: 5px;
+}
+
+.btn-choose-sign {
+  background-color: transparent;
+  border: transparent;
+  font-size: 140px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.grid-buttons {
+  background-color: transparent;
+  border: transparent;
+  padding: 2px;
+  height: 100px;
+  font-size: 65px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.form-check-input:disabled {
+  opacity: 100;
+}
+
+.label {
+  color: whitesmoke;
+  opacity: 100;
+}

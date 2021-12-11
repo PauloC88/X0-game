@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 20rem;">
+        <div class="card-header">
+          <h4><center>Tic-Tac-Toe</center></h4>
+        </div>
+        <div class="card-body" style="height: 3rem;">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="PlayerTurn" id="Player1Turn" checked disabled>
+            <label class="label" for="Player1"><b>Player 1</b></label>
+          </div>
+          <pre>             </pre>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="PlayerTurn" id="Player2Turn" disabled>
+            <label class="label" for="Player2"><b>Player 2</b></label>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container" id="chooseSignArea" style="width: 20rem; height: 20rem;">
+        <br>
+        <h3 style="color: whitesmoke;">Player 1 Choose!</h3>
+        <br>
+        <button type="submit" class="btn-choose-sign" onclick="return chooseSign();">X</button>
+        <br>
+        <button type="submit" class="btn-choose-sign" onclick="return chooseSign();">O</button>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
