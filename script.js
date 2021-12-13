@@ -16,11 +16,10 @@ function chooseSign() {
 }
 
 function insertGrid() {
-  let container = document.querySelector(".container");
-  container.innerHTML += "<div class=\"grid-container\" id=\"playArea\" style=\"width: 20rem; height: 20rem;\"></div>";
   let chooseSignArea = document.getElementById("chooseSignArea");
   chooseSignArea.style.display="none";
   let gridContainer = document.getElementById("playArea");
+  gridContainer.style.display = "grid";
   gridContainer.style.backgroundImage = "url('XO-grid.jpg')";
   for(let i = 1; i <= 9; ++i) {
     let gridButton = document.createElement("button");
